@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+      .page1 {
+        width: 1470px;
+        background-image: url(images/bg-tablet-pattern.svg);
+        background-position: 900px -200px;
+        background-repeat: no-repeat;
+      }
+
+      .page4 {
+        width: 1470px;
+        background-image: url(images/bg-simplify-section-desktop.svg);
+        background-repeat: no-repeat;
+      }
+      @media screen and (max-width: 300px) {
+        .page1 {
+          width: 400px;
+          background-position: 300px -100px;
+          background-repeat: no-repeat;
+        }
+        .page1 img {
+          width: 100px;
+        }
+        .page1 .text {
+          width: 100px;
+          justify-content: start;
+        }
+        .page4 {
+          width: 400px !important;
+        }
+        .page4 p {
+          width: 300px;
+          display: flex;
+          justify-content: start;
+        }
+      }
+    </style>
+  </head>
+  <body class="">
+    <div class="container">
+      <div class="page1">
+        <div class="head p-5">
+          <div
+            class="top flex items-center gap-40 md:w-[1440px] md:p-5 md:gap-65"
+          >
+            <img class="md:pl-23" src="images/logo.svg" alt="" />
+            <div
+              class="menu flex gap-10 text-xs hidden md:block md:flex md:gap-10"
+            >
+              <p>Pricing</p>
+              <p>Product</p>
+              <p>About Us</p>
+              <p>Careers</p>
+              <p>Community</p>
+            </div>
+            <button
+              class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full hidden md:block"
+            >
+              Get Started
+            </button>
+            <img
+              class="block md:hidden"
+              src="images/icon-hamburger.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="center flex gap-10 flex-col text-center text-[hsl(228_39%_23%)] md:flex-row-reverse"
+          >
+            <img
+              class="w-100 md:w-130 md:h-130 md:pt-10"
+              src="images/illustration-intro.svg"
+              alt=""
+            />
+            <div
+              class="text text-start w-90 md:w-200 md:flex md:flex-col md:justify-start md:text-start md:p-30"
+            >
+              <p class="text-5xl md:text-6xl md:font-semibold">
+                Bring everyone together to build better products.
+              </p>
+              <br />
+              <p class="font-light opacity-60">
+                Manage makes it simple for software teams to plan day-to-day
+                tasks while keeping the larger team goals in view.
+              </p>
+              <br />
+              <button
+                class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full md:w-50"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="page2 pt-20 md:flex md:gap-60 md:w-[1440px] md:text-start md:p-30"
+        >
+          <div
+            class="text text-center text-[hsl(228_39%_23%)] md:text-start md:w-100 m"
+          >
+            <p class="text-5xl font-semibold">What's different about Manage?</p>
+            <br />
+            <p class="font-light opacity-60 md:w-70">
+              Manage provides all tne tunctionatity your team needs, without the
+              complexity. Our software is tailor-made for modern digital product
+              teams.
+            </p>
+            <br />
+            <br />
+          </div>
+          <div class="cards">
+            <div class="card text-[hsl(228_39%_23%)]">
+              <div
+                class="orange font-semibold w-full bg-[hsl(12_88%_90%)] rounded-l-full flex items-center gap-3 md:bg-white"
+              >
+                <button
+                  class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full"
+                >
+                  01
+                </button>
+                <p>Track company-wide progress</p>
+              </div>
+              <br />
+              <p class="font-light opacity-60 md:pl-20 md:w-140">
+                See how your day-to-day tasks nt into the wider vision. Go Trom
+                trackina progress at the milestone level all the way aone to une
+                smallest or details Never lose sight of the bigger picture again
+              </p>
+            </div>
+            <br />
+            <div class="card text-[hsl(228_39%_23%)]">
+              <div
+                class="orange font-semibold w-full bg-[hsl(12_88%_90%)] rounded-l-full flex items-center gap-3 md:bg-white"
+              >
+                <button
+                  class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full"
+                >
+                  02
+                </button>
+                <p>Advanced built- in reports</p>
+              </div>
+              <br />
+              <p class="font-light opacity-60 md:pl-20 md:w-140">
+                set Internal delivery estimates and track progress toward
+                company goals. Our customisable dashboard helps you build out
+                the reports you need to keep key stakenolders informed
+              </p>
+            </div>
+            <br />
+            <div class="card text-[hsl(228_39%_23%)]">
+              <div
+                class="orange font-semibold w-full bg-[hsl(12_88%_90%)] rounded-l-full flex items-center gap-3 md:bg-white"
+              >
+                <button
+                  class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full"
+                >
+                  03
+                </button>
+                <p>Everything you need in one place</p>
+              </div>
+              <br />
+              <p class="font-light opacity-60 md:pl-20 md:w-140">
+                stop umpina Trom one service to anotner to. communicate, store
+                nies, track tasks and share documents. Manage offers an
+                all-in-one team productivity solution
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <div class="page3 p-5 text-[hsl(228_39%_23%)]">
+        <br />
+        <p class="text-4xl font-semibold text-center md:pl-50 pb-20">
+          What they've said
+        </p>
+        <br /><br />
+        <div class="scrol flex gap-20 overflow-x scrol w-[1440px]">
+          <div class="profile">
+            <div class="avatar flex flex-col gap-3 justify-center items-center">
+              <img class="w-15" src="images/avatar-ali.png" alt="" />
+              <p class="font-semibold">Ali Bravo</p>
+            </div>
+            <br />
+            <p class="font-light opacity-60 text-center">
+              'We have been able to cancel so many other subscriptions since
+              using Manage. There Is no more cross-channe contusion and everyone
+              is much more focused."
+            </p>
+          </div>
+          <div class="profile">
+            <div class="avatar flex flex-col gap-3 justify-center items-center">
+              <img class="w-15" src="images/avatar-ali.png" alt="" />
+              <p class="font-semibold">Ali Bravo</p>
+            </div>
+            <br />
+            <p class="font-light opacity-60 text-center">
+              'We have been able to cancel so many other subscriptions since
+              using Manage. There Is no more cross-channe contusion and everyone
+              is much more focused."
+            </p>
+          </div>
+          <div class="profile">
+            <div class="avatar flex flex-col gap-3 justify-center items-center">
+              <img class="w-15" src="images/avatar-ali.png" alt="" />
+              <p class="font-semibold">Ali Bravo</p>
+            </div>
+            <br />
+            <p class="font-light opacity-60 text-center">
+              'We have been able to cancel so many other subscriptions since
+              using Manage. There Is no more cross-channe contusion and everyone
+              is much more focused."
+            </p>
+          </div>
+        </div>
+        <div class="button p-5 pt-10 flex justify-center w-[1470px]">
+          <button
+            class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full md:w-50"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+      <div
+        class="page4 bg-[hsl(12_88%_59%)] flex flex-col gap-10 p-5 items-center md:flex-row md:w-[1470px] md:p-20 md:gap-140"
+      >
+        <p class="text-white font-semibold text-4xl md:w-130 md:pl-30">
+          Simplify how your team works today.
+        </p>
+        <button
+          class="bg-white text-[hsl(12_88%_59%)] pl-5 pr-5 pt-2 pb-2 rounded-full font-semibold md:w-50"
+        >
+          Get Started
+        </button>
+      </div>
+      <div
+        class="footer w-100 p-10 flex flex-col md:w-[1470px] bg-blue-900 text-white md:flex md:flex-row-reverse gap-30 md:items-center"
+      >
+        <div class="in flex flex-row gap-5">
+          <fieldset class="bg-white text-gray-900 p-3 rounded-full">
+            <input
+              type="text"
+              id="card"
+              placeholder="Updates in your inbox..."
+            />
+          </fieldset>
+          <button
+            class="bg-[hsl(12_88%_59%)] text-white pl-5 pr-5 pt-2 pb-2 rounded-full hidden md:block"
+          >
+            Go
+          </button>
+        </div>
+
+        <div class="flex flex-row gap-20 md:flex-col">
+          <div class="second flex flex-col gap-2">
+            <p>Home</p>
+            <p>Pricing</p>
+            <p>Products</p>
+            <p>About Us</p>
+          </div>
+          <div class="second flex flex-col gap-2">
+            <p>Home</p>
+            <p>Pricing</p>
+            <p>Products</p>
+          </div>
+        </div>
+        <div
+          class="first flex flex-col gap-5 md:pl-50 md:flex md:flex-col-reverse gap-20"
+        >
+          <div class="in flex flex-row gap-4">
+            <img src="images/icon-facebook.svg" alt="" />
+            <img src="images/icon-youtube.svg" alt="" />
+            <img src="images/icon-twitter.svg" alt="" />
+            <img src="images/icon-pinterest.svg" alt="" />
+            <img src="images/icon-instagram.svg" alt="" />
+          </div>
+          <img class="w-40 md:w-40" src="images/logo.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
